@@ -25,6 +25,7 @@ pipeline{
                     sh """ssh -o StrictHostkeyChecking=no ${server} << EOF
                     cd ${directory}
                     docker-compose build
+		    exit
                     EOF"""
                  }
              }
