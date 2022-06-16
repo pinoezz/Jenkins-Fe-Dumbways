@@ -1,4 +1,4 @@
-def secret = 'alvin'
+def secret = 'alvinn'
 def server = 'alvin@103.55.38.244'
 def directory = 'dumbflix-frontend'
 def branch = 'master'
